@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #484545;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+    gap: 25px;
+}
+
+.btn {
+    color: white;
+    border-color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btns {
+    font-size: 18px;
+}
+
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('New-York-York.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.secondhalf img {
+    width: 58%;
+    height: 40%;
+}
+
+.firstsection {
+    height: 600px;
+    width: 100vw;
+}
+
+.boxmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    gap: 90px;
+
+}
+
+.firsthalf p {
+    width: 30vw;
+}
+
+.firsthalf {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.text-big {
+    font-size: 33px;
+}
+
+.text-small {
+    font-size: 18px;
+    margin-top: -7px;
+}
+
+.btns {
+    padding: 8px 20px;
+    margin: 7px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btns:hover {
+    background-color: rgba(132, 127, 127, 0.218);
+}
+
+.paras img {
+    width: 300px;
+    height: 190px;
+    position: relative;
+    top: 30px;
+}
+
+.section {
+    width: 50%;
+    /* margin: 30px; */
+}
+
+.second-section {
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.king1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: rgb(190, 189, 189);
+}
+
+.king2 {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contact {
+    background-color: rgb(239, 243, 246);
+    height: 630px;
+}
+
+.form-control {
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.heading {
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    width: 20vw;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+.king3 {
+    border: 2px solid black;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.middlepart {
+    display: flex;
+    flex-direction: column;
+}
+.second-section{
+    height: 70vh;
+}
+.middlepart{
+    height:1300px;
+}
+.buttons{
+    display: flex;
+    width: 323px;
+}
